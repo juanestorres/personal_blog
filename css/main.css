@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+
+}
+
+header{
+    width: 100%;
+    height: 20% ;
+    display: grid;
+    grid-template-rows: 35% 65%;
+}
+
+header .header-icons-container{
+    width: 100%;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons{
+    min-width: 25%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 4%;
+}
+
+header .header-icons-container .icons span {
+    color: white;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav .nav-logo-container{
+    margin-left: 10%;
+}
+
+nav .nav-logo-container img{
+    min-width: 40%;
+    max-width: 220px;
+    margin-top: 10px;
+}
+
+nav .nav-profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 4%;
+}
+
+nav .nav-profile-link a{
+    color: black;
+    border-bottom: solid black;
+}
+
+.home-main{
+    height: 80%;
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-main .main-text-container{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    width: 60%;
+    justify-self: center;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    font-family: 'Roboto Mono', monospace;;
+
+    
+}
+
+
+.home-main .main-button-container{
+    height: 50px;
+    width:100px;  
+    display: flex;
+    justify-self: center;
+    align-content: center;  
+    background-color: #47cfac;
+    margin: 0 auto;
+    border-radius: 8px;
+    
+}
+
+.home-main .main-button-container a{
+color: white;
+font-size: 1rem;
+margin: auto;
+font-weight: bold;
+word-wrap: break-word;
+}
